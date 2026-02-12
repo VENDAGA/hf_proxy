@@ -47,4 +47,4 @@ def handler(request):
         return {
             "statusCode": 500,
             "body": json.dumps({"error": str(e)})
-        }api/hf.py
+        }
